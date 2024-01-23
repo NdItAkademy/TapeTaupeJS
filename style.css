@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: url('../cursors/customMoveCursor.cur');
+}
+
+body {
+    height: 100vh;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    padding: 10px;
+    margin: 20px;
+}
+
+#timer {
+    margin: 10px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.level1{
+    background-image: url("/public/img/background_LV1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.level2{
+    background-image: url("/public/img/background_LV2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.level3{
+    background-image: url("/public/img/background_LV3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+}
+
+.character {
+    background-image: url("/public/img/Taupiqueur_dAlola-SL.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.character2 {
+    background-image: url("/public/img/Bombe.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.character3 {
+    background-image: url("/public/img/dracaufeu.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.character4 {
+    background-image: url("/public/img/glaceon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.block {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.492);
+}
+
+#boardGame {
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+
+}
+
+.none {
+    display: none;
+}
+
+#score {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgba(124, 124, 124, 0.603);
+    width: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.StartTheGame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#startGame{
+    font-size: 25px;
+    width: 100px;
+    height: 50px;
+}
